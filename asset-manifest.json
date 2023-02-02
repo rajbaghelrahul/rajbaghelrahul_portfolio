@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/rajbaghelrahul_portfolio/static/css/main.6d75c23f.css",
+    "main.js": "/rajbaghelrahul_portfolio/static/js/main.eb17d2fa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/rajbaghelrahul_portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/homepage.png": "/rajbaghelrahul_portfolio/static/media/homepage.64a8a26a05bbfe58e6a0.png",
+    "static/media/raj_baghel.png": "/rajbaghelrahul_portfolio/static/media/raj_baghel.d690204e4eb0f8adc52c.png",
+    "static/media/homepage2.png": "/rajbaghelrahul_portfolio/static/media/homepage2.c73281d67cf26c020171.png",
+    "static/media/productpage.png": "/rajbaghelrahul_portfolio/static/media/productpage.351c6086c6b27084f988.png",
+    "static/media/review.png": "/rajbaghelrahul_portfolio/static/media/review.53bc7a5c3f582029703c.png",
+    "static/media/home.png": "/rajbaghelrahul_portfolio/static/media/home.f58880ae5d6fa228e027.png",
+    "static/media/productDetailspage.png": "/rajbaghelrahul_portfolio/static/media/productDetailspage.15958fe873f42994736d.png",
+    "static/media/donate.png": "/rajbaghelrahul_portfolio/static/media/donate.620e1dd6f46aa88a82c9.png",
+    "static/media/main.png": "/rajbaghelrahul_portfolio/static/media/main.81e020ebf250cbbe5432.png",
+    "static/media/home2.png": "/rajbaghelrahul_portfolio/static/media/home2.8d0e636c7f80cfee9e0a.png",
+    "static/media/productDetailspage2.png": "/rajbaghelrahul_portfolio/static/media/productDetailspage2.2c5ae80c3f07e323803d.png",
+    "static/media/contact.png": "/rajbaghelrahul_portfolio/static/media/contact.05456a46b84227840bf4.png",
+    "static/media/home1.png": "/rajbaghelrahul_portfolio/static/media/home1.4d0ac56efcdb8d7164c4.png",
+    "static/media/shopingpage.png": "/rajbaghelrahul_portfolio/static/media/shopingpage.e209c275d32d32959ad1.png",
+    "static/media/login.png": "/rajbaghelrahul_portfolio/static/media/login.6c413f72741d3cc2cc06.png",
+    "static/media/Resume_final.pdf": "/rajbaghelrahul_portfolio/static/media/Resume_final.6738ab83a6cc4a623b89.pdf",
+    "static/media/paymentpage.png": "/rajbaghelrahul_portfolio/static/media/paymentpage.fcd8301820dd74a9991d.png",
+    "static/media/pricing.png": "/rajbaghelrahul_portfolio/static/media/pricing.090487500c067892874a.png",
+    "static/media/SignUp.png": "/rajbaghelrahul_portfolio/static/media/SignUp.a99dd1792a3070ec03f9.png",
+    "static/media/signUp.png": "/rajbaghelrahul_portfolio/static/media/signUp.2268eb9b4238687466a5.png",
+    "static/media/rb_logo.png": "/rajbaghelrahul_portfolio/static/media/rb_logo.d67a23c47bb60bb3089b.png",
+    "index.html": "/rajbaghelrahul_portfolio/index.html",
+    "main.6d75c23f.css.map": "/rajbaghelrahul_portfolio/static/css/main.6d75c23f.css.map",
+    "main.eb17d2fa.js.map": "/rajbaghelrahul_portfolio/static/js/main.eb17d2fa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/rajbaghelrahul_portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d75c23f.css",
+    "static/js/main.eb17d2fa.js"
+  ]
+}
