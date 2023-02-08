@@ -62,12 +62,16 @@ const navItem = [
           <Link
             display={{ base: "none", md: "flex" }}
             target="_blank"
-            href={resume}
+            // href={resume}
+            href="https://drive.google.com/file/d/1uwfWGTLAayI2DXQyckb6JxQHsI0FOkOk/view"
             download="Raj_Baghel_Resume"
             _hover={{ textDecoration: "none" }}
           >
-            <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
+            {/* <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
               Download Resume
+            </Button> */}
+            <Button variant="solid" colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
+               Resume
             </Button>
           </Link>
           <Box display={{ base: "flex", md: "none" }}>
