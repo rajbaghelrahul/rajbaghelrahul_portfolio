@@ -1,11 +1,22 @@
 import React from "react";
 import "../index.css";
-import { chakra, Box, Flex, HStack, Button, useDisclosure, VStack, IconButton, Avatar, Link } from "@chakra-ui/react";
+import {
+  chakra,
+  Box,
+  Flex,
+  HStack,
+  Button,
+  useDisclosure,
+  VStack,
+  IconButton,
+  Avatar,
+  Link,
+} from "@chakra-ui/react";
 
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Link as ReachLink } from "react-scroll";
-import resume from "../assets/Resume_final.pdf";
+// import resume from "../assets/Resume_final.pdf";
 import logo from "../assets/rb_logo.png";
 const navItem = [
   { path: "home", name: "Home" },
@@ -17,7 +28,7 @@ const navItem = [
 
 // const secondryColor = "#2442d7";
 
- const Navbar = () => {
+const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
@@ -36,8 +47,18 @@ const navItem = [
         fontWeight="bold"
       >
         <Flex justifyContent="space-between" mx="auto" mb="20px">
-          <chakra.a href="/" title="Raj Baghel" display="flex" alignItems="center">
-            <Avatar size="md" name="Raj Baghel" src={logo} _hover={{ transform: "rotate(90deg)" }} />
+          <chakra.a
+            href="/"
+            title="Raj Baghel"
+            display="flex"
+            alignItems="center"
+          >
+            <Avatar
+              size="md"
+              name="Raj Baghel"
+              src={logo}
+              _hover={{ transform: "rotate(90deg)" }}
+            />
           </chakra.a>
           <HStack spacing={3} display={{ base: "none", md: "flex" }} gap="6">
             {navItem.map((item, i) => {
@@ -70,8 +91,13 @@ const navItem = [
             {/* <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
               Download Resume
             </Button> */}
-            <Button variant="solid" colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
-               Resume
+            <Button
+              variant="solid"
+              leftIcon={<AiOutlineDownload />}
+              colorScheme="messenger"
+              _hover={{ backgroundColor: "#28324c", color: "#dcd0ce" }}
+            >
+              Resume
             </Button>
           </Link>
           <Box display={{ base: "flex", md: "none" }}>
@@ -115,9 +141,19 @@ const navItem = [
                 );
               })}
 
-              <Link target="_blank" href={resume} download="Raj_Baghel_Resume" _hover={{ textDecoration: "none" }}>
-                <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="#2C974B">
-                  Download Resume
+              <Link
+                target="_blank"
+                // href={resume}
+                href="https://drive.google.com/file/d/1uwfWGTLAayI2DXQyckb6JxQHsI0FOkOk/view"
+                download="Raj_Baghel_Resume"
+                _hover={{ textDecoration: "none" }}
+              >
+                <Button
+                  variant="solid"
+                  leftIcon={<AiOutlineDownload />}
+                  colorScheme="#2C974B"
+                >
+                  Resume
                 </Button>
               </Link>
             </VStack>
@@ -128,4 +164,4 @@ const navItem = [
   );
 };
 
-export default Navbar
+export default Navbar;
