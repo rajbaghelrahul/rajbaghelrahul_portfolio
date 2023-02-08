@@ -30,7 +30,7 @@ const projectsData=[
         title:"NORDSTROM_CLONE",
         description:"Nordstrom_clone is an e-commerce Website where we can purchase all many types of products Easy to use for users for selecting and purchasing products by using filters and sortings, etc.",
         techStack:["HTML","JavaScript",'CSS',"ReactJs",'Chakra UI'],
-        deployedURL:"https://clone-nordstrom.netlify.app/",
+        deployedURL:"https://clone-nordstrom-website.netlify.app/",
         githubURL:"https://github.com/Kashisk2/Nordstrome-clone/tree/main/nordstrom",
         images:[topoffab, mainoffab, bottomoffab, wishlist, wishlist2, wishlist3, wishlist4, wishlist5],
     },
