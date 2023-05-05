@@ -25,12 +25,32 @@ import milaap6 from "../ProjectsSnaps/Milaap/pricing.png"
 import milaap7 from "../ProjectsSnaps/Milaap/review.png"
 import milaap8 from "../ProjectsSnaps/Milaap/contact.png"
 
+import gymExerciseApp1 from "../ProjectsSnaps/GymExerciseApp/homePage.png"
+import gymExerciseApp2 from "../ProjectsSnaps/GymExerciseApp/register.png"
+import gymExerciseApp3 from "../ProjectsSnaps/GymExerciseApp/login.png"
+import gymExerciseApp4 from "../ProjectsSnaps/GymExerciseApp/homeMiddle.png"
+import gymExerciseApp5 from "../ProjectsSnaps/GymExerciseApp/homeExercises.png"
+import gymExerciseApp6 from "../ProjectsSnaps/GymExerciseApp/homeFooter.png"
+import gymExerciseApp7 from "../ProjectsSnaps/GymExerciseApp/exerciseDetailPage.png"
+import gymExerciseApp8 from "../ProjectsSnaps/GymExerciseApp/exerciseDetailPage2.png"
+import gymExerciseApp9 from "../ProjectsSnaps/GymExerciseApp/exerciseDetailPageYouTube.png"
+import gymExerciseApp10 from "../ProjectsSnaps/GymExerciseApp/exerciseTargetMuscle.png"
+import gymExerciseApp11 from "../ProjectsSnaps/GymExerciseApp/exerciseEquipment.png"
+
 const projectsData=[
+    {
+        title:"GYM_EXERCISE_APP",
+        description:"Gym Exercise App is a workout guidance full-stack app that provides free workouts for up to 1000 exercises, here we can check category-wiseshoulder, back, waist exercises, etc. It provides equipment-filtered exercise suggestions and provides YouTube videos related to that practice.",
+        techStack:["ReactJS","MUI","NodeJS", "expressJS","MongoDB"],
+        deployedURL:"https://gym-exercises-guide.netlify.app/",
+        githubURL:"https://github.com/rajbaghelrahul/Gym_Exercise_App",
+        images:[gymExerciseApp1, gymExerciseApp2, gymExerciseApp3, gymExerciseApp4, gymExerciseApp5, gymExerciseApp5, gymExerciseApp6, gymExerciseApp7, gymExerciseApp8, gymExerciseApp9, gymExerciseApp10, gymExerciseApp11],
+    },
     {
         title:"NORDSTROM_CLONE",
         description:"Nordstrom_clone is an e-commerce Website where we can purchase all many types of products Easy to use for users for selecting and purchasing products by using filters and sortings, etc.",
         techStack:["HTML","JavaScript",'CSS',"ReactJs",'Chakra UI'],
-        deployedURL:"https://clone-nordstrom-website.netlify.app/",
+        deployedURL:"https://nordstrome-full-stack.netlify.app/",
         githubURL:"https://github.com/Kashisk2/Nordstrome-clone/tree/main/nordstrom",
         images:[topoffab, mainoffab, bottomoffab, wishlist, wishlist2, wishlist3, wishlist4, wishlist5],
     },

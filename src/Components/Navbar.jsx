@@ -84,8 +84,8 @@ const Navbar = () => {
             display={{ base: "none", md: "flex" }}
             target="_blank"
             // href={resume}
-            href="https://drive.google.com/file/d/1uwfWGTLAayI2DXQyckb6JxQHsI0FOkOk/view"
-            download="Raj_Baghel_Resume"
+            href="https://drive.google.com/file/d/17U-Puu7c9lPExScE2EOjjsPyjFfNCx1j/view?usp=sharing"
+            // download="Raj_Baghel_Resume" // if we want to download functionality just uncomment it.
             _hover={{ textDecoration: "none" }}
           >
             {/* <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="messenger" _hover={{backgroundColor:"#28324c", color:"#dcd0ce"}}>
@@ -144,8 +144,8 @@ const Navbar = () => {
               <Link
                 target="_blank"
                 // href={resume}
-                href="https://drive.google.com/file/d/1uwfWGTLAayI2DXQyckb6JxQHsI0FOkOk/view"
-                download="Raj_Baghel_Resume"
+                href="https://drive.google.com/file/d/17U-Puu7c9lPExScE2EOjjsPyjFfNCx1j/view?usp=sharing"
+                // download="Raj_Baghel_Resume"
                 _hover={{ textDecoration: "none" }}
               >
                 <Button

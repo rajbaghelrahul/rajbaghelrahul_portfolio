@@ -14,4 +14,20 @@ export const skillsdata = [
       icon: "https://www.coffeeclass.io/logos/chakra-ui.png",
       name: "Chakra UI",
     },
+    {
+      icon: "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
+      name: "MUI",
+    },
+    {
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
+      name: "NodeJS",
+    },
+    {
+      icon: "https://aglowiditsolutions.com/wp-content/uploads/2018/12/ExpressJS.png",
+      name: "ExpressJS",
+    },
+    {
+      icon: "https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png",
+      name: "MongoDB",
+    },
   ];
